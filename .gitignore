@@ -1,6 +1,14 @@
 # Prerequisites
 *.d
 
+# Outputs
+*.pdf
+*.root
+
+# Caches
+.ipynb_checkpoints/
+.vscode/
+
 # Compiled Object files
 *.slo
 *.lo

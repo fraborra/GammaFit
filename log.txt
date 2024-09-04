@@ -11,10 +11,983 @@
  |                                                      |
  +------------------------------------------------------+
 Summary : Opening logfile log.txt
-Summary : Test model created
-Error   : BCIntegrate::MarginalizeAll : No parameters defined. Aborting.
-Error   : FindMode : No parameters defined. Aborting.
-Error   : BCEngineMCMC::PrintAllMarginalized : No variables defined!
+Summary : ModelQuadraticAndGaussiancreated
+Summary : Marginalize using Metropolis
+Summary : Pre-run Metropolis MCMC for model "QuadraticAndGaussian" ...
+Summary :  --> Perform MCMC pre-run with 5 chains, each with maximum 100000 iterations
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 500 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (zero). Scale decreased to 1.259
+Detail  :          chain 1 is below 15 % (zero). Scale decreased to 1.259
+Detail  :          chain 2 is below 15 % (zero). Scale decreased to 1.259
+Detail  :          chain 3 is below 15 % (zero). Scale decreased to 1.259
+Detail  :          chain 4 is below 15 % (zero). Scale decreased to 1.259
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 1000 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (zero). Scale decreased to 0.8392
+Detail  :          chain 1 is below 15 % (zero). Scale decreased to 0.8392
+Detail  :          chain 2 is below 15 % (zero). Scale decreased to 0.8392
+Detail  :          chain 3 is below 15 % (zero). Scale decreased to 0.8392
+Detail  :          chain 4 is below 15 % (zero). Scale decreased to 0.8392
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 1500 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (zero). Scale decreased to 0.5594
+Detail  :          chain 1 is below 15 % (zero). Scale decreased to 0.5594
+Detail  :          chain 2 is below 15 % (0.2 %). Scale decreased to 0.5594
+Detail  :          chain 3 is below 15 % (0.2 %). Scale decreased to 0.5594
+Detail  :          chain 4 is below 15 % (zero). Scale decreased to 0.5594
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 2000 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (zero). Scale decreased to 0.373
+Detail  :          chain 1 is below 15 % (0.3 %). Scale decreased to 0.373
+Detail  :          chain 2 is below 15 % (zero). Scale decreased to 0.373
+Detail  :          chain 3 is below 15 % (zero). Scale decreased to 0.373
+Detail  :          chain 4 is below 15 % (0.3 %). Scale decreased to 0.373
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 2000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.182 <-- Greater than threshold
+Detail  :          c :  1.177 <-- Greater than threshold
+Detail  :          A :  1.165 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 2500 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (zero). Scale decreased to 0.2486
+Detail  :          chain 1 is below 15 % (zero). Scale decreased to 0.2486
+Detail  :          chain 2 is below 15 % (zero). Scale decreased to 0.2486
+Detail  :          chain 3 is below 15 % (zero). Scale decreased to 0.2486
+Detail  :          chain 4 is below 15 % (0.2 %). Scale decreased to 0.2486
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 2500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.283 <-- Greater than threshold
+Detail  :          c :  1.307 <-- Greater than threshold
+Detail  :          A :  1.271 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 3000 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (0.2 %). Scale decreased to 0.1658
+Detail  :          chain 1 is below 15 % (zero). Scale decreased to 0.1658
+Detail  :          chain 2 is below 15 % (zero). Scale decreased to 0.1658
+Detail  :          chain 3 is below 15 % (zero). Scale decreased to 0.1658
+Detail  :          chain 4 is below 15 % (zero). Scale decreased to 0.1658
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 3000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.366 <-- Greater than threshold
+Detail  :          c :  1.427 <-- Greater than threshold
+Detail  :          A :  1.363 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 3500 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (0.2 %). Scale decreased to 0.1105
+Detail  :          chain 1 is below 15 % (0.2 %). Scale decreased to 0.1105
+Detail  :          chain 2 is below 15 % (0.2 %). Scale decreased to 0.1105
+Detail  :          chain 3 is below 15 % (zero). Scale decreased to 0.1105
+Detail  :          chain 4 is below 15 % (zero). Scale decreased to 0.1105
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 3500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.435 <-- Greater than threshold
+Detail  :          c :  1.536 <-- Greater than threshold
+Detail  :          A :  1.450 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 4000 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (zero). Scale decreased to 0.07367
+Detail  :          chain 1 is below 15 % (0.2 %). Scale decreased to 0.07367
+Detail  :          chain 2 is below 15 % (0.4 %). Scale decreased to 0.07367
+Detail  :          chain 3 is below 15 % (zero). Scale decreased to 0.07367
+Detail  :          chain 4 is below 15 % (0.2 %). Scale decreased to 0.07367
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 4000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.498 <-- Greater than threshold
+Detail  :          c :  1.637 <-- Greater than threshold
+Detail  :          A :  1.534 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 4500 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (0.2 %). Scale decreased to 0.04911
+Detail  :          chain 1 is below 15 % (0.2 %). Scale decreased to 0.04911
+Detail  :          chain 2 is below 15 % (0.2 %). Scale decreased to 0.04911
+Detail  :          chain 3 is below 15 % (zero). Scale decreased to 0.04911
+Detail  :          chain 4 is below 15 % (zero). Scale decreased to 0.04911
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 4500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.571 <-- Greater than threshold
+Detail  :          c :  1.733 <-- Greater than threshold
+Detail  :          A :  1.613 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 5000 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (0.2 %). Scale decreased to 0.03274
+Detail  :          chain 1 is below 15 % (0.4 %). Scale decreased to 0.03274
+Detail  :          chain 2 is below 15 % (zero). Scale decreased to 0.03274
+Detail  :          chain 3 is below 15 % (0.2 %). Scale decreased to 0.03274
+Detail  :          chain 4 is below 15 % (0.2 %). Scale decreased to 0.03274
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 5000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.640 <-- Greater than threshold
+Detail  :          c :  1.823 <-- Greater than threshold
+Detail  :          A :  1.688 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 5500 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (zero). Scale decreased to 0.02183
+Detail  :          chain 1 is below 15 % (0.2 %). Scale decreased to 0.02183
+Detail  :          chain 2 is below 15 % (zero). Scale decreased to 0.02183
+Detail  :          chain 3 is below 15 % (0.2 %). Scale decreased to 0.02183
+Detail  :          chain 4 is below 15 % (zero). Scale decreased to 0.02183
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 5500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.701 <-- Greater than threshold
+Detail  :          c :  1.905 <-- Greater than threshold
+Detail  :          A :  1.760 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 6000 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (0.4 %). Scale decreased to 0.01455
+Detail  :          chain 1 is below 15 % (0.2 %). Scale decreased to 0.01455
+Detail  :          chain 2 is below 15 % (0.2 %). Scale decreased to 0.01455
+Detail  :          chain 3 is below 15 % (0.2 %). Scale decreased to 0.01455
+Detail  :          chain 4 is below 15 % (0.2 %). Scale decreased to 0.01455
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 6000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.755 <-- Greater than threshold
+Detail  :          c :  1.978 <-- Greater than threshold
+Detail  :          A :  1.831 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 6500 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (0.2 %). Scale decreased to 0.009702
+Detail  :          chain 1 is below 15 % (0.6 %). Scale decreased to 0.009702
+Detail  :          chain 2 is below 15 % (0.4 %). Scale decreased to 0.009702
+Detail  :          chain 3 is below 15 % (0.4 %). Scale decreased to 0.009702
+Detail  :          chain 4 is below 15 % (zero). Scale decreased to 0.009702
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 6500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.796 <-- Greater than threshold
+Detail  :          c :  2.041 <-- Greater than threshold
+Detail  :          A :  1.895 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 7000 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (0.8 %). Scale decreased to 0.006468
+Detail  :          chain 1 is below 15 % (zero). Scale decreased to 0.006468
+Detail  :          chain 2 is below 15 % (0.2 %). Scale decreased to 0.006468
+Detail  :          chain 3 is below 15 % (0.6 %). Scale decreased to 0.006468
+Detail  :          chain 4 is below 15 % (2 %). Scale decreased to 0.006468
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 7000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.830 <-- Greater than threshold
+Detail  :          c :  2.089 <-- Greater than threshold
+Detail  :          A :  1.954 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 7500 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (0.8 %). Scale decreased to 0.004312
+Detail  :          chain 1 is below 15 % (0.4 %). Scale decreased to 0.004312
+Detail  :          chain 2 is below 15 % (zero). Scale decreased to 0.004312
+Detail  :          chain 3 is below 15 % (0.4 %). Scale decreased to 0.004312
+Detail  :          chain 4 is below 15 % (0.4 %). Scale decreased to 0.004312
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 7500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.861 <-- Greater than threshold
+Detail  :          c :  2.132 <-- Greater than threshold
+Detail  :          A :  2.009 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 8000 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (0.6 %). Scale decreased to 0.002875
+Detail  :          chain 1 is below 15 % (1 %). Scale decreased to 0.002875
+Detail  :          chain 2 is below 15 % (0.2 %). Scale decreased to 0.002875
+Detail  :          chain 3 is below 15 % (0.4 %). Scale decreased to 0.002875
+Detail  :          chain 4 is below 15 % (0.8 %). Scale decreased to 0.002875
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 8000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.895 <-- Greater than threshold
+Detail  :          c :  2.178 <-- Greater than threshold
+Detail  :          A :  2.063 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 8500 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (1 %). Scale decreased to 0.001916
+Detail  :          chain 1 is below 15 % (0.8 %). Scale decreased to 0.001916
+Detail  :          chain 2 is below 15 % (0.6 %). Scale decreased to 0.001916
+Detail  :          chain 3 is below 15 % (0.6 %). Scale decreased to 0.001916
+Detail  :          chain 4 is below 15 % (2 %). Scale decreased to 0.001916
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 8500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.924 <-- Greater than threshold
+Detail  :          c :  2.216 <-- Greater than threshold
+Detail  :          A :  2.116 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 9000 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (1 %). Scale decreased to 0.001278
+Detail  :          chain 1 is below 15 % (2 %). Scale decreased to 0.001278
+Detail  :          chain 2 is below 15 % (1 %). Scale decreased to 0.001278
+Detail  :          chain 3 is below 15 % (2 %). Scale decreased to 0.001278
+Detail  :          chain 4 is below 15 % (1 %). Scale decreased to 0.001278
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 9000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.943 <-- Greater than threshold
+Detail  :          c :  2.241 <-- Greater than threshold
+Detail  :          A :  2.166 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 9500 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (2 %). Scale decreased to 0.0008517
+Detail  :          chain 1 is below 15 % (3 %). Scale decreased to 0.0008517
+Detail  :          chain 2 is below 15 % (2 %). Scale decreased to 0.0008517
+Detail  :          chain 3 is below 15 % (3 %). Scale decreased to 0.0008517
+Detail  :          chain 4 is below 15 % (1 %). Scale decreased to 0.0008517
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 9500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.955 <-- Greater than threshold
+Detail  :          c :  2.254 <-- Greater than threshold
+Detail  :          A :  2.213 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 10000 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (1 %). Scale decreased to 0.0005678
+Detail  :          chain 1 is below 15 % (2 %). Scale decreased to 0.0005678
+Detail  :          chain 2 is below 15 % (2 %). Scale decreased to 0.0005678
+Detail  :          chain 3 is below 15 % (3 %). Scale decreased to 0.0005678
+Detail  :          chain 4 is below 15 % (3 %). Scale decreased to 0.0005678
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 10000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.956 <-- Greater than threshold
+Detail  :          c :  2.249 <-- Greater than threshold
+Detail  :          A :  2.257 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 10500 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (3 %). Scale decreased to 0.0003785
+Detail  :          chain 1 is below 15 % (3 %). Scale decreased to 0.0003785
+Detail  :          chain 2 is below 15 % (2 %). Scale decreased to 0.0003785
+Detail  :          chain 3 is below 15 % (5 %). Scale decreased to 0.0003785
+Detail  :          chain 4 is below 15 % (4 %). Scale decreased to 0.0003785
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 10500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.952 <-- Greater than threshold
+Detail  :          c :  2.232 <-- Greater than threshold
+Detail  :          A :  2.295 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 11000 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (5 %). Scale decreased to 0.0002524
+Detail  :          chain 1 is below 15 % (5 %). Scale decreased to 0.0002524
+Detail  :          chain 2 is below 15 % (3 %). Scale decreased to 0.0002524
+Detail  :          chain 3 is below 15 % (6 %). Scale decreased to 0.0002524
+Detail  :          chain 4 is below 15 % (4 %). Scale decreased to 0.0002524
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 11000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.944 <-- Greater than threshold
+Detail  :          c :  2.214 <-- Greater than threshold
+Detail  :          A :  2.332 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 11500 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (8 %). Scale decreased to 0.0001682
+Detail  :          chain 1 is below 15 % (7 %). Scale decreased to 0.0001682
+Detail  :          chain 2 is below 15 % (6 %). Scale decreased to 0.0001682
+Detail  :          chain 3 is below 15 % (8 %). Scale decreased to 0.0001682
+Detail  :          chain 4 is below 15 % (8 %). Scale decreased to 0.0001682
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 11500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.942 <-- Greater than threshold
+Detail  :          c :  2.205 <-- Greater than threshold
+Detail  :          A :  2.368 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 12000 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (11 %). Scale decreased to 0.0001122
+Detail  :          chain 1 is below 15 % (11 %). Scale decreased to 0.0001122
+Detail  :          chain 2 is below 15 % (10 %). Scale decreased to 0.0001122
+Detail  :          chain 3 is below 15 % (11 %). Scale decreased to 0.0001122
+Detail  :          chain 4 is below 15 % (8 %). Scale decreased to 0.0001122
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 12000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.943 <-- Greater than threshold
+Detail  :          c :  2.199 <-- Greater than threshold
+Detail  :          A :  2.407 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 12500 iterations. Efficiency of 
+Detail  :          chain 0 is below 15 % (14 %). Scale decreased to 7.477e-05
+Detail  :          chain 1 is below 15 % (12 %). Scale decreased to 7.477e-05
+Detail  :          chain 2 is below 15 % (12 %). Scale decreased to 7.477e-05
+Detail  :          chain 4 is below 15 % (11 %). Scale decreased to 7.477e-05
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 12500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.948 <-- Greater than threshold
+Detail  :          c :  2.200 <-- Greater than threshold
+Detail  :          A :  2.451 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 13000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.953 <-- Greater than threshold
+Detail  :          c :  2.199 <-- Greater than threshold
+Detail  :          A :  2.493 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 13500 iterations. Efficiency of 
+Detail  :          chain 3 is below 15 % (14 %). Scale decreased to 7.477e-05
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 13500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.956 <-- Greater than threshold
+Detail  :          c :  2.197 <-- Greater than threshold
+Detail  :          A :  2.533 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 14000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.945 <-- Greater than threshold
+Detail  :          c :  2.175 <-- Greater than threshold
+Detail  :          A :  2.572 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 14500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.934 <-- Greater than threshold
+Detail  :          c :  2.154 <-- Greater than threshold
+Detail  :          A :  2.609 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 15000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.925 <-- Greater than threshold
+Detail  :          c :  2.136 <-- Greater than threshold
+Detail  :          A :  2.644 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 15500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.909 <-- Greater than threshold
+Detail  :          c :  2.110 <-- Greater than threshold
+Detail  :          A :  2.674 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 16000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.891 <-- Greater than threshold
+Detail  :          c :  2.081 <-- Greater than threshold
+Detail  :          A :  2.698 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 16500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.878 <-- Greater than threshold
+Detail  :          c :  2.058 <-- Greater than threshold
+Detail  :          A :  2.728 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 17000 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (37 %). Scale increased to 0.0001122
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 17000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.864 <-- Greater than threshold
+Detail  :          c :  2.035 <-- Greater than threshold
+Detail  :          A :  2.758 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 17500 iterations. Efficiency of 
+Detail  :          chain 2 is above 35 % (37 %). Scale increased to 0.0001122
+Detail  :          chain 3 is above 35 % (40 %). Scale increased to 0.0001122
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 17500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.840 <-- Greater than threshold
+Detail  :          c :  2.000 <-- Greater than threshold
+Detail  :          A :  2.778 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 18000 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (35 %). Scale increased to 0.0001682
+Detail  :          chain 1 is above 35 % (39 %). Scale increased to 0.0001122
+Detail  :          chain 4 is above 35 % (38 %). Scale increased to 0.0001122
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 18000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.816 <-- Greater than threshold
+Detail  :          c :  1.964 <-- Greater than threshold
+Detail  :          A :  2.796 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 18500 iterations. Efficiency of 
+Detail  :          chain 3 is above 35 % (38 %). Scale increased to 0.0001682
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 18500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.797 <-- Greater than threshold
+Detail  :          c :  1.936 <-- Greater than threshold
+Detail  :          A :  2.816 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 19000 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (42 %). Scale increased to 0.0001682
+Detail  :          chain 2 is above 35 % (36 %). Scale increased to 0.0001682
+Detail  :          chain 4 is above 35 % (36 %). Scale increased to 0.0001682
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 19000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.780 <-- Greater than threshold
+Detail  :          c :  1.912 <-- Greater than threshold
+Detail  :          A :  2.818 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 19500 iterations. Efficiency of 
+Detail  :          chain 3 is above 35 % (35 %). Scale increased to 0.0002524
+Detail  :          chain 4 is above 35 % (36 %). Scale increased to 0.0002524
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 19500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.761 <-- Greater than threshold
+Detail  :          c :  1.885 <-- Greater than threshold
+Detail  :          A :  2.773 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 20000 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (36 %). Scale increased to 0.0002524
+Detail  :          chain 2 is above 35 % (37 %). Scale increased to 0.0002524
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 20000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.743 <-- Greater than threshold
+Detail  :          c :  1.862 <-- Greater than threshold
+Detail  :          A :  2.719 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 20500 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (37 %). Scale increased to 0.0002524
+Detail  :          chain 4 is above 35 % (35 %). Scale increased to 0.0003785
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 20500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.718 <-- Greater than threshold
+Detail  :          c :  1.829 <-- Greater than threshold
+Detail  :          A :  2.638 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 21000 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (36 %). Scale increased to 0.0003785
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 21000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.692 <-- Greater than threshold
+Detail  :          c :  1.795 <-- Greater than threshold
+Detail  :          A :  2.583 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 21500 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (36 %). Scale increased to 0.0003785
+Detail  :          chain 2 is above 35 % (37 %). Scale increased to 0.0003785
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 21500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.668 <-- Greater than threshold
+Detail  :          c :  1.765 <-- Greater than threshold
+Detail  :          A :  2.486 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 22000 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (36 %). Scale increased to 0.0005678
+Detail  :          chain 3 is above 35 % (41 %). Scale increased to 0.0003785
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 22000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.637 <-- Greater than threshold
+Detail  :          c :  1.728 <-- Greater than threshold
+Detail  :          A :  2.321 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 22500 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (38 %). Scale increased to 0.0005678
+Detail  :          chain 2 is above 35 % (35 %). Scale increased to 0.0005678
+Detail  :          chain 4 is above 35 % (36 %). Scale increased to 0.0005678
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 22500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.603 <-- Greater than threshold
+Detail  :          c :  1.686 <-- Greater than threshold
+Detail  :          A :  2.197 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 23000 iterations. Efficiency of 
+Detail  :          chain 3 is above 35 % (43 %). Scale increased to 0.0005678
+Detail  :          chain 4 is above 35 % (38 %). Scale increased to 0.0008517
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 23000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.567 <-- Greater than threshold
+Detail  :          c :  1.641 <-- Greater than threshold
+Detail  :          A :  2.120 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 23500 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (37 %). Scale increased to 0.0008517
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 23500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.539 <-- Greater than threshold
+Detail  :          c :  1.608 <-- Greater than threshold
+Detail  :          A :  2.069 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 24000 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (38 %). Scale increased to 0.001278
+Detail  :          chain 2 is above 35 % (38 %). Scale increased to 0.0008517
+Detail  :          chain 3 is above 35 % (39 %). Scale increased to 0.0008517
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 24000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.505 <-- Greater than threshold
+Detail  :          c :  1.567 <-- Greater than threshold
+Detail  :          A :  1.962 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 24500 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (43 %). Scale increased to 0.0008517
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 24500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.480 <-- Greater than threshold
+Detail  :          c :  1.537 <-- Greater than threshold
+Detail  :          A :  1.886 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 25000 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (36 %). Scale increased to 0.001278
+Detail  :          chain 3 is above 35 % (38 %). Scale increased to 0.001278
+Detail  :          chain 4 is above 35 % (35 %). Scale increased to 0.001278
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 25000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.464 <-- Greater than threshold
+Detail  :          c :  1.517 <-- Greater than threshold
+Detail  :          A :  1.877 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 25500 iterations. Efficiency of 
+Detail  :          chain 2 is above 35 % (37 %). Scale increased to 0.001278
+Detail  :          chain 3 is above 35 % (38 %). Scale increased to 0.001916
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 25500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.456 <-- Greater than threshold
+Detail  :          c :  1.507 <-- Greater than threshold
+Detail  :          A :  1.878 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 26000 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (35 %). Scale increased to 0.001916
+Detail  :          chain 1 is above 35 % (36 %). Scale increased to 0.001916
+Detail  :          chain 2 is above 35 % (36 %). Scale increased to 0.001916
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 26000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.442 <-- Greater than threshold
+Detail  :          c :  1.491 <-- Greater than threshold
+Detail  :          A :  1.851 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 26500 iterations. Efficiency of 
+Detail  :          chain 4 is above 35 % (38 %). Scale increased to 0.001916
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 26500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.428 <-- Greater than threshold
+Detail  :          c :  1.474 <-- Greater than threshold
+Detail  :          A :  1.823 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 27000 iterations. Efficiency of 
+Detail  :          chain 2 is above 35 % (37 %). Scale increased to 0.002875
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 27000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.413 <-- Greater than threshold
+Detail  :          c :  1.456 <-- Greater than threshold
+Detail  :          A :  1.784 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 27500 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (36 %). Scale increased to 0.002875
+Detail  :          chain 3 is above 35 % (36 %). Scale increased to 0.002875
+Detail  :          chain 4 is above 35 % (42 %). Scale increased to 0.002875
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 27500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.403 <-- Greater than threshold
+Detail  :          c :  1.446 <-- Greater than threshold
+Detail  :          A :  1.761 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 28000 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (37 %). Scale increased to 0.002875
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 28000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.391 <-- Greater than threshold
+Detail  :          c :  1.431 <-- Greater than threshold
+Detail  :          A :  1.741 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 28500 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (35 %). Scale increased to 0.004312
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 28500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.373 <-- Greater than threshold
+Detail  :          c :  1.411 <-- Greater than threshold
+Detail  :          A :  1.736 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 29000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.352 <-- Greater than threshold
+Detail  :          c :  1.387 <-- Greater than threshold
+Detail  :          A :  1.712 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 29500 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (39 %). Scale increased to 0.004312
+Detail  :          chain 2 is above 35 % (37 %). Scale increased to 0.004312
+Detail  :          chain 3 is above 35 % (36 %). Scale increased to 0.004312
+Detail  :          chain 4 is above 35 % (38 %). Scale increased to 0.004312
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 29500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.340 <-- Greater than threshold
+Detail  :          c :  1.372 <-- Greater than threshold
+Detail  :          A :  1.709 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 30000 iterations. Efficiency of 
+Detail  :          chain 4 is above 35 % (37 %). Scale increased to 0.006468
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 30000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.328 <-- Greater than threshold
+Detail  :          c :  1.359 <-- Greater than threshold
+Detail  :          A :  1.689 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 30500 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (40 %). Scale increased to 0.006468
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 30500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.320 <-- Greater than threshold
+Detail  :          c :  1.350 <-- Greater than threshold
+Detail  :          A :  1.663 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 31000 iterations. Efficiency of 
+Detail  :          chain 3 is above 35 % (40 %). Scale increased to 0.006468
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 31000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.307 <-- Greater than threshold
+Detail  :          c :  1.335 <-- Greater than threshold
+Detail  :          A :  1.619 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 31500 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (35 %). Scale increased to 0.009702
+Detail  :          chain 1 is above 35 % (40 %). Scale increased to 0.006468
+Detail  :          chain 2 is above 35 % (40 %). Scale increased to 0.006468
+Detail  :          chain 3 is above 35 % (36 %). Scale increased to 0.009702
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 31500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.300 <-- Greater than threshold
+Detail  :          c :  1.327 <-- Greater than threshold
+Detail  :          A :  1.605 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 32000 iterations. Efficiency of 
+Detail  :          chain 2 is above 35 % (35 %). Scale increased to 0.009702
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 32000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.294 <-- Greater than threshold
+Detail  :          c :  1.320 <-- Greater than threshold
+Detail  :          A :  1.575 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 32500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.288 <-- Greater than threshold
+Detail  :          c :  1.314 <-- Greater than threshold
+Detail  :          A :  1.519 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 33000 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (40 %). Scale increased to 0.009702
+Detail  :          chain 3 is above 35 % (36 %). Scale increased to 0.01455
+Detail  :          chain 4 is above 35 % (37 %). Scale increased to 0.009702
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 33000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.286 <-- Greater than threshold
+Detail  :          c :  1.312 <-- Greater than threshold
+Detail  :          A :  1.465 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 33500 iterations. Efficiency of 
+Detail  :          chain 4 is above 35 % (35 %). Scale increased to 0.01455
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 33500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.281 <-- Greater than threshold
+Detail  :          c :  1.306 <-- Greater than threshold
+Detail  :          A :  1.421 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 34000 iterations. Efficiency of 
+Detail  :          chain 2 is above 35 % (38 %). Scale increased to 0.01455
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 34000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.275 <-- Greater than threshold
+Detail  :          c :  1.299 <-- Greater than threshold
+Detail  :          A :  1.375 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 34500 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (39 %). Scale increased to 0.01455
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 34500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.266 <-- Greater than threshold
+Detail  :          c :  1.289 <-- Greater than threshold
+Detail  :          A :  1.337 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 35000 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (38 %). Scale increased to 0.01455
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 35000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.259 <-- Greater than threshold
+Detail  :          c :  1.282 <-- Greater than threshold
+Detail  :          A :  1.320 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 35500 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (35 %). Scale increased to 0.02183
+Detail  :          chain 2 is above 35 % (37 %). Scale increased to 0.02183
+Detail  :          chain 4 is above 35 % (39 %). Scale increased to 0.02183
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 35500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.253 <-- Greater than threshold
+Detail  :          c :  1.275 <-- Greater than threshold
+Detail  :          A :  1.303 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 36000 iterations. Efficiency of 
+Detail  :          chain 3 is above 35 % (37 %). Scale increased to 0.02183
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 36000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.250 <-- Greater than threshold
+Detail  :          c :  1.271 <-- Greater than threshold
+Detail  :          A :  1.294 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 36500 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (35 %). Scale increased to 0.02183
+Detail  :          chain 4 is above 35 % (38 %). Scale increased to 0.03274
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 36500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.242 <-- Greater than threshold
+Detail  :          c :  1.263 <-- Greater than threshold
+Detail  :          A :  1.281 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 37000 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (35 %). Scale increased to 0.03274
+Detail  :          chain 1 is above 35 % (35 %). Scale increased to 0.03274
+Detail  :          chain 2 is above 35 % (38 %). Scale increased to 0.03274
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 37000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.238 <-- Greater than threshold
+Detail  :          c :  1.258 <-- Greater than threshold
+Detail  :          A :  1.270 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 37500 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (35 %). Scale increased to 0.04911
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 37500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.231 <-- Greater than threshold
+Detail  :          c :  1.251 <-- Greater than threshold
+Detail  :          A :  1.261 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 38000 iterations. Efficiency of 
+Detail  :          chain 3 is above 35 % (39 %). Scale increased to 0.03274
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 38000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.226 <-- Greater than threshold
+Detail  :          c :  1.245 <-- Greater than threshold
+Detail  :          A :  1.255 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 38500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.219 <-- Greater than threshold
+Detail  :          c :  1.237 <-- Greater than threshold
+Detail  :          A :  1.256 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 39000 iterations. Efficiency of 
+Detail  :          chain 4 is above 35 % (37 %). Scale increased to 0.04911
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 39000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.215 <-- Greater than threshold
+Detail  :          c :  1.233 <-- Greater than threshold
+Detail  :          A :  1.247 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 39500 iterations. Efficiency of 
+Detail  :          chain 2 is above 35 % (41 %). Scale increased to 0.04911
+Detail  :          chain 3 is above 35 % (36 %). Scale increased to 0.04911
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 39500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.211 <-- Greater than threshold
+Detail  :          c :  1.228 <-- Greater than threshold
+Detail  :          A :  1.242 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 40000 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (36 %). Scale increased to 0.04911
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 40000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.204 <-- Greater than threshold
+Detail  :          c :  1.220 <-- Greater than threshold
+Detail  :          A :  1.242 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 40500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.198 <-- Greater than threshold
+Detail  :          c :  1.214 <-- Greater than threshold
+Detail  :          A :  1.246 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 41000 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (37 %). Scale increased to 0.07367
+Detail  :          chain 2 is above 35 % (35 %). Scale increased to 0.07367
+Detail  :          chain 3 is above 35 % (38 %). Scale increased to 0.07367
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 41000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.194 <-- Greater than threshold
+Detail  :          c :  1.210 <-- Greater than threshold
+Detail  :          A :  1.242 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 41500 iterations. Efficiency of 
+Detail  :          chain 4 is above 35 % (39 %). Scale increased to 0.07367
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 41500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.190 <-- Greater than threshold
+Detail  :          c :  1.204 <-- Greater than threshold
+Detail  :          A :  1.234 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 42000 iterations. Efficiency of 
+Detail  :          chain 3 is above 35 % (35 %). Scale increased to 0.1105
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 42000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.185 <-- Greater than threshold
+Detail  :          c :  1.200 <-- Greater than threshold
+Detail  :          A :  1.226 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 42500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.182 <-- Greater than threshold
+Detail  :          c :  1.196 <-- Greater than threshold
+Detail  :          A :  1.224 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 43000 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (35 %). Scale increased to 0.1105
+Detail  :          chain 1 is above 35 % (37 %). Scale increased to 0.07367
+Detail  :          chain 4 is above 35 % (36 %). Scale increased to 0.1105
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 43000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.179 <-- Greater than threshold
+Detail  :          c :  1.192 <-- Greater than threshold
+Detail  :          A :  1.223 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 43500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.175 <-- Greater than threshold
+Detail  :          c :  1.189 <-- Greater than threshold
+Detail  :          A :  1.220 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 44000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.171 <-- Greater than threshold
+Detail  :          c :  1.184 <-- Greater than threshold
+Detail  :          A :  1.218 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 44500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.168 <-- Greater than threshold
+Detail  :          c :  1.180 <-- Greater than threshold
+Detail  :          A :  1.213 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 45000 iterations. Efficiency of 
+Detail  :          chain 2 is above 35 % (41 %). Scale increased to 0.1105
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 45000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.165 <-- Greater than threshold
+Detail  :          c :  1.177 <-- Greater than threshold
+Detail  :          A :  1.205 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 45500 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (38 %). Scale increased to 0.1105
+Detail  :          chain 4 is above 35 % (36 %). Scale increased to 0.1658
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 45500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.162 <-- Greater than threshold
+Detail  :          c :  1.174 <-- Greater than threshold
+Detail  :          A :  1.201 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 46000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.160 <-- Greater than threshold
+Detail  :          c :  1.171 <-- Greater than threshold
+Detail  :          A :  1.192 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 46500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.157 <-- Greater than threshold
+Detail  :          c :  1.169 <-- Greater than threshold
+Detail  :          A :  1.186 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 47000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.155 <-- Greater than threshold
+Detail  :          c :  1.166 <-- Greater than threshold
+Detail  :          A :  1.176 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 47500 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (35 %). Scale increased to 0.1658
+Detail  :          chain 2 is above 35 % (35 %). Scale increased to 0.1658
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 47500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.153 <-- Greater than threshold
+Detail  :          c :  1.164 <-- Greater than threshold
+Detail  :          A :  1.165 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 48000 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (35 %). Scale increased to 0.2486
+Detail  :          chain 1 is above 35 % (36 %). Scale increased to 0.1658
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 48000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.150 <-- Greater than threshold
+Detail  :          c :  1.161 <-- Greater than threshold
+Detail  :          A :  1.152 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 48500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.149 <-- Greater than threshold
+Detail  :          c :  1.159 <-- Greater than threshold
+Detail  :          A :  1.143 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 49000 iterations. Efficiency of 
+Detail  :          chain 2 is above 35 % (36 %). Scale increased to 0.2486
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 49000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.146 <-- Greater than threshold
+Detail  :          c :  1.156 <-- Greater than threshold
+Detail  :          A :  1.138 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 49500 iterations. Efficiency of 
+Detail  :          chain 4 is above 35 % (36 %). Scale increased to 0.2486
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 49500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.144 <-- Greater than threshold
+Detail  :          c :  1.154 <-- Greater than threshold
+Detail  :          A :  1.134 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 50000 iterations. Efficiency of 
+Detail  :          chain 3 is above 35 % (36 %). Scale increased to 0.1658
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 50000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.142 <-- Greater than threshold
+Detail  :          c :  1.152 <-- Greater than threshold
+Detail  :          A :  1.130 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 50500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.140 <-- Greater than threshold
+Detail  :          c :  1.149 <-- Greater than threshold
+Detail  :          A :  1.129 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 51000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.137 <-- Greater than threshold
+Detail  :          c :  1.146 <-- Greater than threshold
+Detail  :          A :  1.126 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 51500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.135 <-- Greater than threshold
+Detail  :          c :  1.144 <-- Greater than threshold
+Detail  :          A :  1.123 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 52000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.132 <-- Greater than threshold
+Detail  :          c :  1.141 <-- Greater than threshold
+Detail  :          A :  1.117 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 52500 iterations. Efficiency of 
+Detail  :          chain 3 is above 35 % (35 %). Scale increased to 0.2486
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 52500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.130 <-- Greater than threshold
+Detail  :          c :  1.139 <-- Greater than threshold
+Detail  :          A :  1.113 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 53000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.128 <-- Greater than threshold
+Detail  :          c :  1.137 <-- Greater than threshold
+Detail  :          A :  1.110 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 53500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.126 <-- Greater than threshold
+Detail  :          c :  1.134 <-- Greater than threshold
+Detail  :          A :  1.107 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 54000 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (36 %). Scale increased to 0.2486
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 54000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.124 <-- Greater than threshold
+Detail  :          c :  1.133 <-- Greater than threshold
+Detail  :          A :  1.104 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 54500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.123 <-- Greater than threshold
+Detail  :          c :  1.131 <-- Greater than threshold
+Detail  :          A :  1.104 <-- Greater than threshold
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 55000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.121 <-- Greater than threshold
+Detail  :          c :  1.129 <-- Greater than threshold
+Detail  :          A :  1.101 <-- Greater than threshold
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 55500 iterations. Efficiency of 
+Detail  :          chain 2 is above 35 % (36 %). Scale increased to 0.373
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 55500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.119 <-- Greater than threshold
+Detail  :          c :  1.127 <-- Greater than threshold
+Detail  :          A :  1.097
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 56000 iterations. Efficiency of 
+Detail  :          chain 4 is above 35 % (38 %). Scale increased to 0.373
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 56000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.118 <-- Greater than threshold
+Detail  :          c :  1.125 <-- Greater than threshold
+Detail  :          A :  1.094
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 56500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.116 <-- Greater than threshold
+Detail  :          c :  1.123 <-- Greater than threshold
+Detail  :          A :  1.090
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 57000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.114 <-- Greater than threshold
+Detail  :          c :  1.121 <-- Greater than threshold
+Detail  :          A :  1.088
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 57500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.112 <-- Greater than threshold
+Detail  :          c :  1.119 <-- Greater than threshold
+Detail  :          A :  1.089
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 58000 iterations. Efficiency of 
+Detail  :          chain 3 is above 35 % (39 %). Scale increased to 0.373
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 58000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.110 <-- Greater than threshold
+Detail  :          c :  1.117 <-- Greater than threshold
+Detail  :          A :  1.090
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 58500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.108 <-- Greater than threshold
+Detail  :          c :  1.115 <-- Greater than threshold
+Detail  :          A :  1.088
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 59000 iterations. Efficiency of 
+Detail  :          chain 1 is above 35 % (36 %). Scale increased to 0.373
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 59000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.107 <-- Greater than threshold
+Detail  :          c :  1.114 <-- Greater than threshold
+Detail  :          A :  1.087
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 59500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.105 <-- Greater than threshold
+Detail  :          c :  1.112 <-- Greater than threshold
+Detail  :          A :  1.087
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 60000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.104 <-- Greater than threshold
+Detail  :          c :  1.110 <-- Greater than threshold
+Detail  :          A :  1.085
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 60500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.102 <-- Greater than threshold
+Detail  :          c :  1.109 <-- Greater than threshold
+Detail  :          A :  1.084
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 61000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.101 <-- Greater than threshold
+Detail  :          c :  1.108 <-- Greater than threshold
+Detail  :          A :  1.082
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 61500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.100
+Detail  :          c :  1.106 <-- Greater than threshold
+Detail  :          A :  1.079
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 62000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.098
+Detail  :          c :  1.105 <-- Greater than threshold
+Detail  :          A :  1.078
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 62500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.097
+Detail  :          c :  1.103 <-- Greater than threshold
+Detail  :          A :  1.076
+Detail  :      * Efficiency status: Efficiencies not within predefined range after 63000 iterations. Efficiency of 
+Detail  :          chain 0 is above 35 % (36 %). Scale increased to 0.373
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 63000 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.096
+Detail  :          c :  1.102 <-- Greater than threshold
+Detail  :          A :  1.075
+Detail  :      * Convergence status: Set of 5 Markov chains did not converge after 63500 iterations.
+Detail  :        - Parameter :  R-Value
+Detail  :          b :  1.095
+Detail  :          c :  1.101 <-- Greater than threshold
+Detail  :          A :  1.073
+Summary :  --> Set of 5 Markov chains converged within 64000 iterations, and all scales are adjusted.
+Summary :  --> 127 updates to multivariate proposal function's covariances were made.
+Detail  :  --> Scale factors and efficiencies (measured in last 500 iterations):
+Detail  :        - Chain : Scale factor    Efficiency
+Detail  :              0 :        0.373        32.0 %
+Detail  :              1 :        0.373        28.1 %
+Detail  :              2 :        0.373        28.6 %
+Detail  :              3 :        0.373        34.1 %
+Detail  :              4 :        0.373        27.9 %
+Summary : Run Metropolis MCMC for model "QuadraticAndGaussian" ...
+Summary :  --> Perform MCMC run with 5 chains, each with 100000 iterations.
+Detail  :  --> iteration number  10000 ( 10 %)
+Detail  :  --> iteration number  20000 ( 20 %)
+Detail  :  --> iteration number  30000 ( 30 %)
+Detail  :  --> iteration number  40000 ( 40 %)
+Detail  :  --> iteration number  50000 ( 50 %)
+Detail  :  --> iteration number  60000 ( 60 %)
+Detail  :  --> iteration number  70000 ( 70 %)
+Detail  :  --> iteration number  80000 ( 80 %)
+Detail  :  --> iteration number  90000 ( 90 %)
+Detail  :  --> iteration number 100000 (100 %)
+Summary :  --> Markov chains ran for 100000 iterations.
+Detail  :  --> Efficiencies (measured in 100000 iterations):
+Detail  :        - Chain : Efficiency
+Detail  :              0 :     28.9 %
+Detail  :              1 :     27.7 %
+Detail  :              2 :     27.9 %
+Detail  :              3 :     30.4 %
+Detail  :              4 :     30.8 %
+Detail  :  --> Global mode from MCMC:
+Detail  :           a :    0
+Detail  :           b :   -0.0352
+Detail  :           c :    38.64
+Detail  :           A :    1.655
+Summary : Printing all marginalized distributions (3 x 1D + 3 x 2D = 6) into file QuadraticAndGaussian_plots.pdf
 Summary : 
 Summary :  -----------------------------------------------------
 Summary :  Summary
@@ -22,10 +995,87 @@ Summary :  -----------------------------------------------------
 Summary : 
 Summary :  Model summary
 Summary :  =============
-Summary :  Model: Name_Me
-Summary :  Number of parameters: 0
+Summary :  Model: QuadraticAndGaussian
+Summary :  Number of parameters: 4
+Summary : 
+Summary :  List of parameters and ranges:
+Summary :  0) a : [-100, 100] (fixed at 0.0000)
+Summary :  1) b : [-100, 100]
+Summary :  2) c : [-10, 100]
+Summary :  3) A : [0, 40]
 Summary : 
 Summary : 
-Summary : No best fit information available.
+Summary :  Results of the optimization
+Summary :  ===========================
+Summary :  Optimization algorithm used: Default
+Summary :  Best Fit Results
+Summary :  ===========================
+Summary :  Log of the maximum posterior: -800.399345
 Summary : 
+Summary :  Global mode:
+Summary :  0)  Parameter "a" : 0 (fixed) +- 0
+Summary :  1)  Parameter "b" : -0.0351 +- 0.005245
+Summary :  2)  Parameter "c" : 38.58 +- 2.64
+Summary :  3)  Parameter "A" : 1.676 +- 4.775
+Summary : 
+Summary :  Marginalization algorithm used: Metropolis
+Summary : 
+Summary :  Results of the marginalization
+Summary :  ==============================
+Summary :  List of variables and properties of the marginalized distributions:
+Summary : 
+Summary :   (0) Parameter "a" : fixed at 0
+Summary : 
+Summary :   (1) Parameter "b" :
+Summary :       Mean +- sqrt(Variance):         -0.03542 +- 0.005415
+Summary :       Median +- central 68% interval: -1 + 0.68 - 0.68
+Summary :       (Marginalized) mode:            -1
+Summary :        5% quantile:                   -1.9
+Summary :       10% quantile:                   -1.8
+Summary :       16% quantile:                   -1.68
+Summary :       84% quantile:                   -0.32
+Summary :       90% quantile:                   -0.2
+Summary :       95% quantile:                   -0.1
+Summary :       Smallest interval containing 100.0% and local mode:
+Summary :       (-2, 0) (local mode at -1 with rel. height 1; rel. area 1)
+Summary : 
+Summary :   (2) Parameter "c" :
+Summary :       Mean +- sqrt(Variance):         +38.74 +- 2.728
+Summary :       Median +- central 68% interval: +38.74 + 2.745 - 2.747
+Summary :       (Marginalized) mode:            +38.95
+Summary :        5% quantile:                   +34.19
+Summary :       10% quantile:                   +35.21
+Summary :       16% quantile:                   +35.99
+Summary :       84% quantile:                   +41.48
+Summary :       90% quantile:                   +42.31
+Summary :       95% quantile:                   +43.32
+Summary :       Smallest interval containing 68.5% and local mode:
+Summary :       (36.2, 41.7) (local mode at 38.95 with rel. height 1; rel. area 1)
+Summary : 
+Summary :   (3) Parameter "A" :
+Summary :       Mean +- sqrt(Variance):         +5.181 +- 3.805
+Summary :       Median +- central 68% interval: +4.465 + 4.482 - 3.04
+Summary :       (Marginalized) mode:            +2.2
+Summary :        5% quantile:                   +0.4356
+Summary :       10% quantile:                   +0.8865
+Summary :       16% quantile:                   +1.425
+Summary :       84% quantile:                   +8.947
+Summary :       90% quantile:                   +10.42
+Summary :       95% quantile:                   +12.45
+Summary :       Smallest interval containing 70.9% and local mode:
+Summary :       (0, 6.8) (local mode at 2.2 with rel. height 1; rel. area 1)
+Summary : 
+Summary :  Status of the MCMC
+Summary :  ==================
+Summary :  Convergence reached:                    yes
+Summary :  Number of iterations until convergence: 64000
+Summary :  Number of chains:                       5
+Summary :  Number of iterations per chain:         100000
+Detail  :  Scale factors and efficiencies (measured in last 100000 iterations):
+Detail  :  Chain : Scale factor    Efficiency
+Detail  :      0 :       0.373         28.9 %
+Detail  :      1 :       0.373         27.7 %
+Detail  :      2 :       0.373         27.9 %
+Detail  :      3 :       0.373         30.4 %
+Detail  :      4 :       0.373         30.8 %
 Summary : Exiting
